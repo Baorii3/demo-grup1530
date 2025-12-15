@@ -1,0 +1,20 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - echo "Installing Hugo Extended..."
+        - curl -L -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_linux-amd64.tar.gz
+        - tar -xf hugo.tar.gz hugo
+        - chmod +x hugo
+        - ./hugo version
+    build:
+      commands:
+        - echo "Building site..."
+        - ./hugo --minify
+  artifacts:
+    baseDirectory: public
+    files:
+      - '**/*'
+  cache:
+    paths: []
