@@ -42,16 +42,11 @@ Education:
   - Course: Desarrollo de Aplicaciones Multiplataforma (DAM)
     Place: Institut Tic de Barcelona
     Date: 2024 - Actualmente
-    Details:
-      - Enfoque en el lenguaje Java y el desarrollo de la lógica de programación.
-      - Aprendizaje de Kotlin en el segundo año, aplicado al desarrollo de aplicaciones Android sostenibles.
-      - Creación de programas funcionales y eficientes.
+    Details: "Enfoque en Java y lógica de programación. Aprendizaje de Kotlin para Android. Creación de programas funcionales."
   - Course: Técnico en Sistemas Microinformáticos y Redes (SMR)
     Place: Institut Tic de Barcelona
     Date: 2022 - 2024
-    Details:
-      - He aprendido a instalar, configurar y mejorar distintas infraestructuras tecnológicas.
-      - Asegurándome de que funcionen correctamente, sean estables y seguras.
+    Details: "Instalación, configuración y mantenimiento de infraestructuras tecnológicas, asegurando estabilidad y seguridad."
 
 Skills:
   - Family: Lenguajes
