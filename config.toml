@@ -3,10 +3,10 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 enableEmoji = true
 
-theme = "almeida-cv"
+theme = "almeida"
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
-baseURL = "/"
+baseURL = "https://cv.aws010.ianordonez.cat/"
 title = "Example - CV"
 #googleAnalytics = ""
 
