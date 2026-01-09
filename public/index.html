@@ -39,6 +39,9 @@
         
             <div class="content__left">
                 
+                <div style="font-size: 0.8rem; color: #666; margin-bottom: 0.5rem;">
+                    👀 Visitas: <span id="count-value">...</span>
+                </div>
                 <h1 class="mainHeading">Ian <span>Ordóñez Barbarà</span></h1>
                 
 <div id="profile" class="section">
@@ -303,7 +306,12 @@
                 </div>
             </div>
             <script>
-                fetch("https://pnm7lcloa7.execute-api.us-east-1.amazonaws.com/prod/visit", { method: "POST" });
+                fetch("https://pnm7lcloa7.execute-api.us-east-1.amazonaws.com/prod/visit", { method: "POST" })
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById('count-value').innerText = data.new_count;
+                    })
+                    .catch(e => console.error("Error counting visits:", e));
             </script>
 </body>
 
