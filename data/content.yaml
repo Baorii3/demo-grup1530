@@ -1,7 +1,7 @@
 BasicInfo:
   FirstName: Ian
   LastName: Ordóñez Barbarà
-  Photo: img/avatar.jpg
+  Photo: img/avatar.png
   Contacts:
     - Icon: fas fa-phone
       Info: +34 634 28 56 76
